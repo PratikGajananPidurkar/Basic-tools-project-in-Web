@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+}
+
+.video-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+.video-info {
+    padding: 16px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+}
